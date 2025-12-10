@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高级主题切换组件</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- 引入谷歌字体以提升排版质感 -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- 演示卡片区域 -->
+        <div class="content-card">
+            <header class="card-header">
+                <h1 class="card-title">主题风格切换</h1>
+                <p class="card-subtitle">体验丝滑的日夜间模式过渡动画</p>
+            </header>
+
+            <!-- 核心组件：主题切换滑块 -->
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" aria-label="切换主题" />
+                    <div class="slider">
+                        <!-- 背景装饰：星星 (深色模式显示) -->
+                        <div class="star star-1">★</div>
+                        <div class="star star-2">★</div>
+                        <div class="star star-3">★</div>
+                        <div class="star star-4">★</div>
+                        <div class="star star-5">★</div>
+
+                        <!-- 背景装饰：云朵 (浅色模式显示) -->
+                        <div class="cloud cloud-1">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M17,10c-0.6,0-1.1,0.1-1.6,0.3c-0.7-2.7-3.2-4.8-6.1-4.8c-3.5,0-6.3,2.8-6.3,6.3c0,0.4,0,0.7,0.1,1.1C1.2,13.6,0,15.6,0,17.9c0,3.4,2.7,6.1,6.1,6.1h11.1c3.2,0,5.8-2.6,5.8-5.8C23,14.6,20.4,12,17,10z" />
+                            </svg>
+                        </div>
+                        <div class="cloud cloud-2">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M17,10c-0.6,0-1.1,0.1-1.6,0.3c-0.7-2.7-3.2-4.8-6.1-4.8c-3.5,0-6.3,2.8-6.3,6.3c0,0.4,0,0.7,0.1,1.1C1.2,13.6,0,15.6,0,17.9c0,3.4,2.7,6.1,6.1,6.1h11.1c3.2,0,5.8-2.6,5.8-5.8C23,14.6,20.4,12,17,10z" />
+                            </svg>
+                        </div>
+
+                        <!-- 滑块按钮：包含太阳和月亮图标 -->
+                        <div class="slider-btn">
+                            <!-- 太阳图标 -->
+                            <svg class="icon sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                            <!-- 月亮图标 -->
+                            <svg class="icon moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
