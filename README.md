@@ -1,6 +1,8 @@
 # 高级日夜模式切换组件 (Advanced Theme Toggle Slider)
 
 一个精致、流畅且极具高级感的 Web 主题切换组件。支持在“明亮模式（蓝天白云）”与“深色模式（璀璨星空）”之间无缝切换。
+<img width="1610" height="993" alt="image" src="https://github.com/user-attachments/assets/f9c769b3-6ec7-4abd-8888-8edbb160982d" />
+<img width="1610" height="993" alt="image" src="https://github.com/user-attachments/assets/b11728da-4e7c-4189-a37e-255fe4374b0f" />
 
 ## ✨ 特性
 
